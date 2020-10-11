@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="376.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleur.FXMLDocumentController">
+<children>
+<Button fx:id="btn_valider" layoutX="163.0" layoutY="230.0" onAction="#handleButtonAction" text="Valider" />
+<Label fx:id="label" layoutX="204.0" layoutY="269.0" prefHeight="17.0" prefWidth="149.0" />
+<TextField fx:id="textEmail" layoutX="130.0" layoutY="152.0" />
+<Label fx:id="email_lbl" layoutX="56.0" layoutY="156.0" text="Email">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+<Label fx:id="mdp_lbl" layoutX="42.0" layoutY="200.0" text="Mot de passe">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+<PasswordField fx:id="textPassword" layoutX="130.0" layoutY="196.0" />
+      <Label layoutX="175.0" layoutY="43.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="89.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/gsb.png" />
+         </image>
+      </ImageView>
+</children>
+</AnchorPane>
